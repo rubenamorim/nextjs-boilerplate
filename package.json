@@ -5,6 +5,7 @@
     "scripts": {
         "dev": "next dev",
         "build": "next build",
+        "build:analyze": "ANALYZE=true yarn build",
         "start": "next start",
         "lint": "eslint . --ext .js,.jsx,.ts,.tsx,.json",
         "test": "jest",
@@ -14,7 +15,9 @@
         "prepare": "husky install"
     },
     "dependencies": {
+        "@next/bundle-analyzer": "^10.0.8",
         "next": "10.0.8",
+        "next-compose-plugins": "^2.2.1",
         "react": "17.0.1",
         "react-dom": "17.0.1"
     },
