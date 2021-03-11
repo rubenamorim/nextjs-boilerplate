@@ -1,5 +1,5 @@
 # The pipelines defined in this file define a Continuous Delivery
-# environment where every push and pull request to `master`
+# environment where every push and pull request to `main`
 # runs the linter, tests and builds the application.
 
 name: Main
@@ -7,10 +7,10 @@ name: Main
 on:
     push:
         branches:
-            - master
+            - main
     pull_request:
         branches:
-            - master
+            - main
 
 jobs:
     cancel-run:
@@ -64,7 +64,7 @@ jobs:
             - name: Install dependencies
               run: yarn
             - name: Run type checking
-              run: yarn check-types
+              run: yarn ts
 
     test:
         name: Unit tests
