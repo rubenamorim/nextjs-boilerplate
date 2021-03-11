@@ -1,4 +1,6 @@
-const Button: React.FC = (props) => {
+const Button: React.FC<React.ButtonHTMLAttributes<HTMLButtonElement>> = (
+    props
+) => {
     return <button {...props} />;
 };
 

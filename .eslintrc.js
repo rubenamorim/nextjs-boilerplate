@@ -35,7 +35,7 @@ module.exports = {
     },
     overrides: [
         {
-            files: ['pages/*'],
+            files: ['pages/**'],
             rules: {
                 '@typescript-eslint/explicit-module-boundary-types': 'off',
             },
