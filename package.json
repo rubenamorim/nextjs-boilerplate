@@ -10,7 +10,7 @@
         "test": "jest",
         "test:watch": "yarn test --watch --no-coverage",
         "test:report": "open coverage/lcov-report/index.html",
-        "ts": "tsc",
+        "check-types": "tsc",
         "prepare": "husky install"
     },
     "dependencies": {
