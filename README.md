@@ -48,4 +48,4 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 [![Deploy with Netlify](https://www.netlify.com/img/deploy/button.svg)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Frubenamorim%2Fnextjs-boilerplate)
 
-Check out our [Next.js on Netlify documentation](https://docs.netlify.com/configure-builds/common-configurations/next-js/) for more details.
+Check out the [Next.js on Netlify documentation](https://docs.netlify.com/configure-builds/common-configurations/next-js/) for more details.
