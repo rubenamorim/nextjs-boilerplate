@@ -23,8 +23,8 @@
         "next-compose-plugins": "^2.2.1",
         "next-optimized-images": "^2.6.2",
         "npm-run-all": "^4.1.5",
-        "react": "^17.0.1",
-        "react-dom": "^17.0.1"
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2"
     },
     "devDependencies": {
         "@commitlint/cli": "^12.0.1",
@@ -39,7 +39,7 @@
         "@types/react": "^17.0.3",
         "@types/testing-library__jest-dom": "^5.9.5",
         "@typescript-eslint/eslint-plugin": "^4.19.0",
-        "@typescript-eslint/parser": "^4.18.0",
+        "@typescript-eslint/parser": "^4.19.0",
         "eslint": "^7.22.0",
         "eslint-config-prettier": "^8.1.0",
         "eslint-plugin-eslint-comments": "^3.2.0",
@@ -48,7 +48,7 @@
         "eslint-plugin-jest-dom": "^3.6.5",
         "eslint-plugin-jsx-a11y": "^6.4.1",
         "eslint-plugin-prettier": "^3.3.1",
-        "eslint-plugin-react": "^7.22.0",
+        "eslint-plugin-react": "^7.23.0",
         "eslint-plugin-react-hooks": "^4.2.0",
         "eslint-plugin-testing-library": "^3.10.2",
         "husky": "^5.2.0",
