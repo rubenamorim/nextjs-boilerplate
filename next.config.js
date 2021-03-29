@@ -1,13 +1,13 @@
 const withPlugins = require('next-compose-plugins');
 const bundleAnalyzer = require('@next/bundle-analyzer');
-const optimizedImages = require('next-optimized-images');
 
-const config = {};
+const config = {
+    future: {
+        webpack5: true,
+    },
+};
 
 module.exports = withPlugins(
-    [
-        optimizedImages,
-        bundleAnalyzer({ enabled: process.env.ANALYZE === 'true' }),
-    ],
+    [bundleAnalyzer({ enabled: process.env.ANALYZE === 'true' })],
     config
 );
