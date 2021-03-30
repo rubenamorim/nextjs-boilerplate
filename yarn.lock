@@ -816,10 +816,10 @@
     "@types/yargs" "^15.0.0"
     chalk "^4.0.0"
 
-"@next/bundle-analyzer@^10.0.9":
-  version "10.0.9"
-  resolved "https://registry.yarnpkg.com/@next/bundle-analyzer/-/bundle-analyzer-10.0.9.tgz#e25d1c16b35348d8ed8e2d0608647cc519ce3911"
-  integrity sha512-xHU8BTtQty8g8Uq1TTiGyeOhX9Qo4q/jOmEcI9n5qQRlHB7DVNKmG4Jx5QoQ9DwWL7Rd0bPeFqvoTOlrqmIQ3g==
+"@next/bundle-analyzer@^10.1.1":
+  version "10.1.1"
+  resolved "https://registry.yarnpkg.com/@next/bundle-analyzer/-/bundle-analyzer-10.1.1.tgz#073aea2ec798f78aa214e64d7b9bebfeba57b18a"
+  integrity sha512-slb62/Z6CrYPj8PyqJRWOHaasC7WDPCUBai14S+16PFAig8ZfLZQtnVSjjHrZgUnXmLOovdtA9sBuyJGbX6Dsg==
   dependencies:
     webpack-bundle-analyzer "4.3.0"
 
@@ -940,10 +940,10 @@
     lodash "^4.17.15"
     redent "^3.0.0"
 
-"@testing-library/react-hooks@^5.1.0":
-  version "5.1.0"
-  resolved "https://registry.yarnpkg.com/@testing-library/react-hooks/-/react-hooks-5.1.0.tgz#6014b7536d0e9427a1e73ce1d073c49a6af5fb3b"
-  integrity sha512-ChRyyA14e0CeVkWGp24v8q/IiWUqH+B8daRx4lGZme4dsudmMNWz+Qo2Q2NzbD2O5rAVXh2hSbS/KTKeqHYhkw==
+"@testing-library/react-hooks@^5.1.1":
+  version "5.1.1"
+  resolved "https://registry.yarnpkg.com/@testing-library/react-hooks/-/react-hooks-5.1.1.tgz#1fbaae8a4e8a4a7f97b176c23e1e890c41bbbfa5"
+  integrity sha512-52D2XnpelFDefnWpy/V6z2qGNj8JLIvW5DjYtelMvFXdEyWiykSaI7IXHwFy4ICoqXJDmmwHAiFRiFboub/U5g==
   dependencies:
     "@babel/runtime" "^7.12.5"
     "@types/react" ">=16.9.0"
@@ -1192,14 +1192,14 @@
     "@typescript-eslint/typescript-estree" "1.13.0"
     eslint-visitor-keys "^1.0.0"
 
-"@typescript-eslint/parser@^4.19.0":
-  version "4.19.0"
-  resolved "https://registry.yarnpkg.com/@typescript-eslint/parser/-/parser-4.19.0.tgz#4ae77513b39f164f1751f21f348d2e6cb2d11128"
-  integrity sha512-/uabZjo2ZZhm66rdAu21HA8nQebl3lAIDcybUoOxoI7VbZBYavLIwtOOmykKCJy+Xq6Vw6ugkiwn8Js7D6wieA==
+"@typescript-eslint/parser@^4.20.0":
+  version "4.20.0"
+  resolved "https://registry.yarnpkg.com/@typescript-eslint/parser/-/parser-4.20.0.tgz#8dd403c8b4258b99194972d9799e201b8d083bdd"
+  integrity sha512-m6vDtgL9EABdjMtKVw5rr6DdeMCH3OA1vFb0dAyuZSa3e5yw1YRzlwFnm9knma9Lz6b2GPvoNSa8vOXrqsaglA==
   dependencies:
-    "@typescript-eslint/scope-manager" "4.19.0"
-    "@typescript-eslint/types" "4.19.0"
-    "@typescript-eslint/typescript-estree" "4.19.0"
+    "@typescript-eslint/scope-manager" "4.20.0"
+    "@typescript-eslint/types" "4.20.0"
+    "@typescript-eslint/typescript-estree" "4.20.0"
     debug "^4.1.1"
 
 "@typescript-eslint/scope-manager@4.19.0":
@@ -2897,10 +2897,10 @@ eslint-plugin-import@^2.22.1:
     resolve "^1.17.0"
     tsconfig-paths "^3.9.0"
 
-eslint-plugin-jest-dom@^3.6.5:
-  version "3.6.5"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-jest-dom/-/eslint-plugin-jest-dom-3.6.5.tgz#61459d1db52873d438983d3aa84aaa9804eff222"
-  integrity sha512-iaJ5aSQghp9u2ciLAseWIVu7X5tW+WwNJwMBDToK4GBfwGXXQJDLt5IBNtm6fHvC3FRzCGwvyNMIG1g5gF+icQ==
+eslint-plugin-jest-dom@^3.7.0:
+  version "3.7.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-jest-dom/-/eslint-plugin-jest-dom-3.7.0.tgz#90b1da71aba7a0f5ac80e57ec04efbe97161fa55"
+  integrity sha512-pLbKIV/upcORNROKgO6Yca13HGTkXvgcI7qaqJSZ8mvGMqaDvQSEh+RoabjeLByMzJBmAzNx1AAT2dUYOAVidw==
   dependencies:
     "@babel/runtime" "^7.9.6"
     "@testing-library/dom" "^7.28.1"
