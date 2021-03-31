@@ -697,10 +697,10 @@
     "@types/yargs" "^15.0.0"
     chalk "^4.0.0"
 
-"@next/bundle-analyzer@^10.1.1":
-  version "10.1.1"
-  resolved "https://registry.yarnpkg.com/@next/bundle-analyzer/-/bundle-analyzer-10.1.1.tgz#073aea2ec798f78aa214e64d7b9bebfeba57b18a"
-  integrity sha512-slb62/Z6CrYPj8PyqJRWOHaasC7WDPCUBai14S+16PFAig8ZfLZQtnVSjjHrZgUnXmLOovdtA9sBuyJGbX6Dsg==
+"@next/bundle-analyzer@^10.1.2":
+  version "10.1.2"
+  resolved "https://registry.yarnpkg.com/@next/bundle-analyzer/-/bundle-analyzer-10.1.2.tgz#0bd2a2481cd5854a286decd321f3c793d9b111e1"
+  integrity sha512-hlenu9Kq32cVA+mkFC0OYoonv9DSK2W5PNDGPV94Rvv7ZBTcSSQyp8tD5mRDGfV4p9oAq+n5hJVgj/urCfRwUg==
   dependencies:
     webpack-bundle-analyzer "4.3.0"
 
@@ -836,10 +836,10 @@
     "@babel/runtime" "^7.12.5"
     "@testing-library/dom" "^7.28.1"
 
-"@testing-library/user-event@^13.0.16":
-  version "13.0.16"
-  resolved "https://registry.yarnpkg.com/@testing-library/user-event/-/user-event-13.0.16.tgz#c027a9656f1984cf05f9c94c8f7168c06e85792c"
-  integrity sha512-plXL8lGR2H0xm0fHE0Dfz37ke2UtBI1wAmaWIo6BP7+pGt+BxdBQrITHAMGcac0a3PtBi5CXNPth8S53ISO1Ew==
+"@testing-library/user-event@^13.1.1":
+  version "13.1.1"
+  resolved "https://registry.yarnpkg.com/@testing-library/user-event/-/user-event-13.1.1.tgz#1e011de944cf4d2a917cef6c3046c26389943e24"
+  integrity sha512-B4roX+0mpXKGj8ndd38YoIo3IV9pmTTWxr/2cOke5apTtrNabEUE0KMBccpcAcYlfPcr7uMu+dxeeC3HdXd9qQ==
   dependencies:
     "@babel/runtime" "^7.12.5"
 
