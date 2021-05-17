@@ -828,10 +828,10 @@
     filter-console "^0.1.1"
     react-error-boundary "^3.1.0"
 
-"@testing-library/react@^11.2.6":
-  version "11.2.6"
-  resolved "https://registry.yarnpkg.com/@testing-library/react/-/react-11.2.6.tgz#586a23adc63615985d85be0c903f374dab19200b"
-  integrity sha512-TXMCg0jT8xmuU8BkKMtp8l7Z50Ykew5WNX8UoIKTaLFwKkP2+1YDhOLA2Ga3wY4x29jyntk7EWfum0kjlYiSjQ==
+"@testing-library/react@^11.2.7":
+  version "11.2.7"
+  resolved "https://registry.yarnpkg.com/@testing-library/react/-/react-11.2.7.tgz#b29e2e95c6765c815786c0bc1d5aed9cb2bf7818"
+  integrity sha512-tzRNp7pzd5QmbtXNG/mhdcl7Awfu/Iz1RaVHY75zTdOkmHCuzMhRL83gWHSgOAcjS3CCbyfwUHMZgRJb4kAfpA==
   dependencies:
     "@babel/runtime" "^7.12.5"
     "@testing-library/dom" "^7.28.1"
@@ -2779,10 +2779,10 @@ eslint-plugin-react@^7.23.2:
     resolve "^2.0.0-next.3"
     string.prototype.matchall "^4.0.4"
 
-eslint-plugin-testing-library@^4.2.1:
-  version "4.2.1"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-testing-library/-/eslint-plugin-testing-library-4.2.1.tgz#0ec98db5bab0199ad01fb42361d510a0bb8caf9d"
-  integrity sha512-wejetD2Vlx2QDDMDmonsDi2aqlGRlDkbeEhM8vZmfOaHZBemEHSmgCXjAigItGnTxyFUsdSsXIeRayU3Mv/nxg==
+eslint-plugin-testing-library@^4.4.0:
+  version "4.4.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-testing-library/-/eslint-plugin-testing-library-4.4.0.tgz#3624e3a4f3db04ba67e3e8a16345e1b48068f62c"
+  integrity sha512-uMsWi6/4V4GPNiGzoa2OaTQT32BezKxxTWSrJfy/JXk2AJLv1IEM6t1uN2j0qiNrL3tEbl1yl4tinaDFxj8YjA==
   dependencies:
     "@typescript-eslint/experimental-utils" "^4.21.0"
 
