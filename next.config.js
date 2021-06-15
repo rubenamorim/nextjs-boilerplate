@@ -2,9 +2,7 @@ const withPlugins = require('next-compose-plugins');
 const bundleAnalyzer = require('@next/bundle-analyzer');
 
 const config = {
-    future: {
-        webpack5: true,
-    },
+    reactStrictMode: true,
 };
 
 module.exports = withPlugins(
