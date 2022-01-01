@@ -54,7 +54,7 @@
         "eslint-plugin-testing-library": "^5.0.1",
         "husky": "^7.0.4",
         "jest": "^27.4.3",
-        "lint-staged": "^12.1.2",
+        "lint-staged": "^12.1.4",
         "open": "^8.4.0",
         "prettier": "^2.5.1",
         "prettier-eslint-cli": "^5.0.1",
