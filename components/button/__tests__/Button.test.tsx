@@ -10,12 +10,14 @@ describe('Button', () => {
         expect(container).toBeInTheDocument();
     });
 
-    it('should call the function passed on click', () => {
+    it('should call the function passed on click', async () => {
+        const user = userEvent.setup();
+
         const mockFn = jest.fn();
 
         render(<Button onClick={mockFn}>Hello</Button>);
 
-        userEvent.click(screen.getByText('Hello'));
+        await user.click(screen.getByText('Hello'));
 
         expect(mockFn).toHaveBeenCalled();
     });
