@@ -49,7 +49,7 @@
         "eslint-plugin-testing-library": "^5.5.1",
         "husky": "^8.0.1",
         "jest": "^28.1.0",
-        "jest-environment-jsdom": "^28.1.0",
+        "jest-environment-jsdom": "^28.1.2",
         "lint-staged": "^13.0.0",
         "open": "^8.4.0",
         "prettier": "^2.6.2",
