@@ -1,9 +1,10 @@
 {
-    "typescript.tsdk": "node_modules/typescript/lib",
+    "typescript.tsdk": "node_modules/.pnpm/typescript@4.9.5/node_modules/typescript/lib",
     "files.associations": {
         "*.json": "json",
         ".*rc": "json"
     },
     "files.insertFinalNewline": true,
-    "editor.formatOnSave": true
+    "editor.formatOnSave": true,
+    "typescript.enablePromptUseWorkspaceTsdk": true
 }

@@ -1,9 +1,12 @@
+/* eslint-disable eslint-comments/disable-enable-pair,@typescript-eslint/no-var-requires */
 const withPlugins = require('next-compose-plugins');
 const bundleAnalyzer = require('@next/bundle-analyzer');
 
 /** @type {import('next').NextConfig} */
 const config = {
-    reactStrictMode: true,
+    experimental: {
+        appDir: true,
+    },
 };
 
 module.exports = withPlugins(
